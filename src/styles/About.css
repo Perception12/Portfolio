@@ -1,0 +1,16 @@
+.about {
+    background-color: var(--secondaryColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+}
+
+.about p {
+    text-align: center;
+    width: 55%;
+}

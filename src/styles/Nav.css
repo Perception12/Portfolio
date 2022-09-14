@@ -1,0 +1,48 @@
+.nav {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.nav-l {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logo>span {
+    color: var(--primaryColor);
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.menu>li {
+    transition: all 200ms ease-in;
+}
+
+.menu>li:hover {
+    cursor: pointer;
+    color: var(--primaryColor);
+}
+
+.nav-r {
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    gap: 2rem;
+    padding-right:6rem;
+}

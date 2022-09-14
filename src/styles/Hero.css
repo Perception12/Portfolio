@@ -1,0 +1,51 @@
+.hero {
+  position: relative;
+  display: flex;
+  height: 100vh;
+}
+
+
+.hero-l {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0 6rem;
+}
+
+.greeting {
+  text-transform: uppercase;
+  color: var(--primaryColor);
+}
+
+.name {
+  font-size: 1.5rem;
+  color: var(--primaryColor);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  width: 80%;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.hero-r {
+  width: 45%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--lightPrimary);
+}
+
+.hero-r img {
+    width: 80%;
+}
