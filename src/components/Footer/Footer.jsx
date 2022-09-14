@@ -27,7 +27,7 @@ const Footer = ({tLink, lnLink}) => {
         >
           <img src={twitter} alt="" />
         </a>
-        <a href="#">
+        <a href="/">
           <img src={message} alt="" />
         </a>
       </div>
