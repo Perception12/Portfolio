@@ -28,3 +28,14 @@
 .service img {
     width: 3rem;
 }
+
+@media screen and (max-width: 768px) {
+    .service-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service {
+        width: 100%;
+    }
+}

@@ -10,6 +10,7 @@
   display: flex;
   flex-direction: column;
   scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -20,4 +21,11 @@
   font-size: 2.5rem;
   font-weight: bold;
   align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  .heading>div {
+    font-size: 2rem;
+    text-align: center;
+  }
 }

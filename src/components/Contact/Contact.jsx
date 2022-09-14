@@ -6,20 +6,26 @@ import twitter from "../../assets/twitter.svg";
 import message from '../../assets/message.svg';
 import phone from '../../assets/phone.svg';
 
-const Contact = () => {
+const Contact = ({tLink, lnLink}) => {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="contact-l">
         <div className="heading">
           <div>Get In Touch.</div>
           <p>I'm Available 🙂</p>
           
           <div className="social-links">
-          <a href="#">
+          <a href={lnLink}
+          target="_blank"
+          rel="noreferrer"
+          >
             <img src={linkedIn} alt="linkedIn" />
           </a>
 
-          <a href="#">
+          <a href={tLink}
+          target="_blank"
+          rel="noreferrer"
+          >
             <img src={twitter} alt="twitter" />
           </a>
         </div>

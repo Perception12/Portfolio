@@ -5,10 +5,10 @@ import linkedIn from "../../assets/linkedIn.svg";
 import twitter from "../../assets/twitter.svg";
 import programmer from '../../assets/programmer.png';
 
-const Hero = () => {
+const Hero = ({tLink, lnLink}) => {
   return (
     <div className="hero">
-      <Nav />
+      <Nav tLink={tLink} lnLink={lnLink} />
       <div className="hero-l">
         <span className="greeting">Hi There</span>
         <div className="name">I am kehinde Adejumobi</div>
@@ -17,11 +17,17 @@ const Hero = () => {
           Creator.
         </div>
         <div className="social-links">
-          <a href="#">
+          <a href={lnLink}
+          target="_blank"
+          rel="noreferrer"
+          >
             <img src={linkedIn} alt="linkedIn" />
           </a>
 
-          <a href="#">
+          <a href={tLink}
+          target="_blank"
+          rel="noreferrer"
+          >
             <img src={twitter} alt="twitter" />
           </a>
         </div>

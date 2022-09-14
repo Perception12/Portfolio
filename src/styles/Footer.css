@@ -24,3 +24,14 @@
     background:var(--footerBg); 
     padding:0 10px; 
 }
+
+@media screen and (max-width: 768px) {
+  .footer-name {
+    font-size: 1.5rem;
+  }
+
+  .footer>:last-child {
+    font-size: 0.9rem;
+  }
+}
+

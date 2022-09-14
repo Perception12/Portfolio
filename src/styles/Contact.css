@@ -1,31 +1,46 @@
 div.contact {
-    display: flex;
-    padding-top: 4rem;
+  display: flex;
+  padding-top: 4rem;
 }
 
 .contact-l {
-    width: 55%;
-    padding-left: 6rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2rem;
+  width: 55%;
+  padding-left: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .contact-r {
-    width: 45%;
-    background-color: var(--primaryColor);
+  width: 45%;
+  background-color: var(--primaryColor);
 }
 
 .contact-info {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .info {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-.contact-info>div>:nth-child(2) {
-    color: grey;
+.contact-info > div > :nth-child(2) {
+  color: grey;
+}
+
+@media screen and (max-width: 768px) {
+    .contact {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .contact-l {
+        width: 100%;
+    }
+
+    .contact-r {
+        width: 100%;
+    }
 }

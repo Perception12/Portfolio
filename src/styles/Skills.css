@@ -45,3 +45,13 @@
     gap: 1rem;
     align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+    .skills-content {
+      flex-direction: column;
+      align-items: center;
+    }
+    .skill-section {
+        width: 80%;
+    }
+  }
