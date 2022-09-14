@@ -5,7 +5,7 @@ import skillData from "../../data/skillData";
 const Skills = () => {
   return (
     <div className="skills">
-      <div className="skills-heading">
+      <div className="heading">
         <div>My Skills</div>
         <p>Here are a few skills i possess</p>
       </div>

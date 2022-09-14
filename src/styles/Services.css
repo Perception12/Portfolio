@@ -1,0 +1,30 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem 6rem;
+    background-color: var(--secondaryColor);
+}
+
+.service-content {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 30%;
+}
+
+.service div {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.service img {
+    width: 3rem;
+}

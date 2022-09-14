@@ -2,6 +2,8 @@
   --primaryColor: #2351DC;
   --lightPrimary: #D3DCF8;
   --secondaryColor: #F6F8FE;
+  --shadow: 0px 8px 15px 2px rgba(0, 0, 0, 0.1);
+  --footerBg: #07102C;
 }
 
 .App {
@@ -12,4 +14,10 @@
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+.heading>div {
+  font-size: 2.5rem;
+  font-weight: bold;
+  align-self: center;
 }

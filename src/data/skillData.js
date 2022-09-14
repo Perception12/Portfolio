@@ -12,7 +12,8 @@ const skillData = [
             "JavaScript",
             "Python",
             "C/C++",
-            "SQL"
+            "SQL",
+            "Dart"
         ]
     },
     {
@@ -24,6 +25,7 @@ const skillData = [
             "Nodejs",
             "Express",
             "Flask",
+            "Flutter",
             "JQuery",
             "BootStrap"
         ]
@@ -37,7 +39,8 @@ const skillData = [
             "Linux",
             "Arduino",
             "Proteus",
-            "KiCAD"
+            "KiCAD",
+            "Android Studio"
         ]
     }
 ];

@@ -1,0 +1,30 @@
+div.contact {
+    display: flex;
+    padding: 4rem 0;
+}
+
+.contact-l {
+    width: 55%;
+    padding-left: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-r {
+    width: 45%;
+    background-color: var(--primaryColor);
+}
+
+.contact-info {
+    display: flex;
+    gap: 1rem;
+}
+
+.info {
+    font-weight: bold;
+}
+
+.contact-info>div>:nth-child(2) {
+    color: grey;
+}
