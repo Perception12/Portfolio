@@ -38,6 +38,8 @@ div.contact {
 
     .contact-l {
         width: 100%;
+        align-items: flex-start;
+        padding-left: 2rem;
     }
 
     .contact-r {

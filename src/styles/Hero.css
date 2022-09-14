@@ -57,19 +57,18 @@
     flex-direction: column;
     gap: 2rem;
     width: 100%;
-    align-items: center;
     justify-content: center;
-    padding-top: 4rem;
+    padding-top: 8rem;
   }
 
   .hero-l {
     width: 100%;
-    align-items: center;
+    align-items: flex-start;
+    margin-left: -4rem;
   }
 
   .title {
     font-size: 2rem;
-    text-align: center;
   }
   .hero-r {
     width: 100%;
@@ -77,6 +76,6 @@
   }
 
   .hero-r img {
-    width: 50%;
+    width: 60%;
   }
 }
