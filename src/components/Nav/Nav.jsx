@@ -48,7 +48,7 @@ const Nav = ({ tLink, lnLink }) => {
                   span={true}
                   smooth={true}
                 >
-                  About Me
+                  About
                 </Scroll>
               </li>
               <li>
@@ -78,7 +78,7 @@ const Nav = ({ tLink, lnLink }) => {
                   span={true}
                   smooth={true}
                 >
-                  Contact Me
+                  Contact
                 </Scroll>
               </li>
             </ul>
