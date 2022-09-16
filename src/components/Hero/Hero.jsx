@@ -10,7 +10,7 @@ const Hero = ({tLink, lnLink}) => {
     <div className="hero">
       <Nav tLink={tLink} lnLink={lnLink} />
       <div className="hero-l">
-        <span className="greeting">Hi There</span>
+        <span className="greeting">Hi There 👋</span>
         <div className="name">I am kehinde Adejumobi</div>
         <div className="title">
           A Frontend Developer, Embedded Software Engineer and Content
