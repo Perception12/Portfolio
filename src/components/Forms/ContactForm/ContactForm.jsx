@@ -10,7 +10,7 @@ const ContactForm = () => {
       </div>
 
       <form>
-        <input type="text" name="" id="" placeholder="Enter fullname" />
+        <input type="text" name="" id="" placeholder="Enter Full Name" />
         <input type="email" name="" id="" placeholder="Enter Email Address" />
         <textarea
           name=""
