@@ -12,8 +12,8 @@
     width: 60%;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem auto;
-    padding-left: 6rem;
+    padding: 1rem 6rem;
+    padding-right:4rem;
 }
 
 .logo {
