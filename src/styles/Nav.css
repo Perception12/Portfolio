@@ -12,7 +12,8 @@
     width: 60%;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 6rem;
+    padding: 1rem auto;
+    padding-left: 6rem;
 }
 
 .logo {
@@ -31,7 +32,6 @@
 }
 
 .menu>li {
-    font-size: 0.9rem;
     transition: all 200ms ease-in;
 }
 
