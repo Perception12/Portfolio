@@ -31,8 +31,8 @@ const Footer = ({tLink, lnLink}) => {
           <img src={message} alt="" />
         </a>
       </div>
-      <div style={{ color: "white", letterSpacing: "2px" }}>
-        copyright &copy; 2022 <span style={{ padding: "0 1rem" }}>|</span> All
+      <div style={{ color: "white", letterSpacing: "2px", fontSize:"0.6rem" }}>
+        copyright &copy; 2022 <span style={{ padding: "0 0.5rem" }}>|</span> All
         rights reserved
       </div>
     </div>
