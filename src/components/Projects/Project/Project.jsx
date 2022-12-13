@@ -15,7 +15,7 @@ const Project = ({project}) => {
             ))}
         </div>
         <div className="buttons">
-            <a href={project.source} target="_blank" rel='noreferrer' >Source</a>
+            <a href={project.github} target="_blank" rel='noreferrer' >Github
             <a href={project.live} target="_blank" rel='noreferrer' >Live</a>
         </div>
     </div>
