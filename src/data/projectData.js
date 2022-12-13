@@ -6,6 +6,12 @@ const projectData = [
         "live": "https://www.scholarsbreed.info"
     },
     {
+        "title": "Manage",
+        "tools": ["HTML", "JS", "TailwindCss],
+        "github": "https://github.com/Perception12/manage",
+        "live": "https://perception12.github.io/manage/"
+    },
+    {
         "title": "Random Quote Generator",
         "tools": ["React", "CSS"],
         "github": "https://github.com/Perception12/Fitness-App",
@@ -40,14 +46,7 @@ const projectData = [
         "tools": ["Flutter", "Dart"],
         "github": "https://github.com/Perception12/flutter_banking_ui",
         "live": ""
-    },
-    {
-        "title": "LCD Arcade Game",
-        "tools": ["Arduino", "RTOS", "C/C++"],
-        "github": "https://github.com/Perception12/Arduino-Projects/tree/main/lcdArcadeGame",
-        "live": ""
-    },
-
+    }
 ];
 
 
