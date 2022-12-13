@@ -37,7 +37,8 @@ const skillData = [
             "Heroku",
             "Firebase Cli",
             "Linux",
-            "Android Studio"
+            "Android Studio",
+            "Tailwind CSS"
         ]
     }
 ];
