@@ -7,7 +7,7 @@ const projectData = [
     },
     {
         "title": "Manage",
-        "tools": ["HTML", "JS", "TailwindCss],
+        "tools": ["HTML", "JS", "TailwindCss"],
         "github": "https://github.com/Perception12/manage",
         "live": "https://perception12.github.io/manage/"
     },
