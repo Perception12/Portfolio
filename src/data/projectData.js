@@ -12,7 +12,7 @@ const projectData = [
         "live": "https://perception12.github.io/manage/"
     },
     {
-        "title": "Random Quote Generator",
+        "title": "Quote Generator",
         "tools": ["React", "CSS"],
         "github": "https://github.com/Perception12/Fitness-App",
         "live": "https://random-quote-generator-kappa.vercel.app/"
