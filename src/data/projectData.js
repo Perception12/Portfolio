@@ -1,5 +1,11 @@
 const projectData = [
     {
+        "title": "Scholars Breed",
+        "tools": ["React", "Firebase"],
+        "source": "https://github.com/Perception12/digital-lock-circuit",
+        "live": ""
+    },
+    {
         "title": "Random Quote Generator",
         "tools": ["React", "CSS"],
         "source": "https://github.com/Perception12/Fitness-App",
@@ -9,12 +15,6 @@ const projectData = [
         "title": "Fitness App",
         "tools": ["Flutter", "Dart"],
         "source": "https://github.com/Perception12/random-quote-generator",
-        "live": ""
-    },
-    {
-        "title": "Digital Lock Circuit",
-        "tools": ["Arduino", "C/C++"],
-        "source": "https://github.com/Perception12/digital-lock-circuit",
         "live": ""
     },
     {
