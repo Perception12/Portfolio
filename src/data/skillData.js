@@ -37,9 +37,6 @@ const skillData = [
             "Heroku",
             "Firebase Cli",
             "Linux",
-            "Arduino",
-            "Proteus",
-            "KiCAD",
             "Android Studio"
         ]
     }
