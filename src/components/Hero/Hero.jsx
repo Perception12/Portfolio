@@ -13,7 +13,7 @@ const Hero = ({tLink, lnLink}) => {
         <span className="greeting">Hi There 👋</span>
         <div className="name">I am kehinde Adejumobi</div>
         <div className="title">
-          A Fullstack Developer and Content
+          A Fullstack Developer, Mobile App Developer and Content
           Creator.
         </div>
         <div className="social-links">
